@@ -33,6 +33,8 @@ Proof of Work & Evidence
 Below are the screenshots confirming the modular setup and the AWS environment feedback:
 
 1. Successful Initialization
-<img width="932" height="594" alt="tf_init" src="https://github.com/user-attachments/assets/18c6e2f6-ab9e-4265-95d2-efbf22866014" />
+
+![image alt](https://github.com/Stefan00000-ux/terraform-aws-assignment/blob/51a292f81456c329cc00fea6c9ccc12ce1408c58/tf_init.jpeg)
+
 
 
