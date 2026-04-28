@@ -307,3 +307,6 @@ output "final_vpc_id" {
   value       = module.vpc.vpc_id
 }
 (main-alb-1948317415.us-east-1.elb.amazonaws.com) [ALB- DNS - URL]
+
+<img width="930" height="1000" alt="tf_apply" src="https://github.com/user-attachments/assets/597869a9-34aa-4a73-9e68-fcb782d46728" />
+
