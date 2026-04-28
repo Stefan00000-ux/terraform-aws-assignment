@@ -35,16 +35,17 @@ This section contains the complete source code for the modular deployment. The p
 
 ---
 
-### 📂 1. Root Configuration
-*This is the entry point that connects all modules together.*
+### 📂 1. Root Configuration (main.tf)
+*This is the main entry point for the project.*
 
-**main.tf (Root)**
 ```hcl
 provider "aws" {
-  region = "us-east-1" 
+  region = "us-east-1"
 }
 
 module "vpc" {
+  source = "./modules/vpc"
+  #  (module "vpc" {
   source               = "./modules/vpc"
   vpc_cidr             = var.vpc_cidr
   public_subnet_cidrs  = var.public_subnet_cidrs
@@ -76,7 +77,9 @@ module "ec2" {
 #    dynamodb_table = "terraform-lockid"
 #    encrypt        = true
 #  }
-#}
+#})
+}
+
 
 **variables.tf (Root)**
 variable "vpc_cidr" {
