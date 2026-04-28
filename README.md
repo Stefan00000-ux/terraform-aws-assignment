@@ -29,3 +29,10 @@ The project is organized into a root directory with three distinct modules:
     └── ec2/               # Compute: Launch Template, Auto Scaling Group
         ├── main.tf, variables.tf, outputs.tf
 
+Proof of Work & Evidence
+Below are the screenshots confirming the modular setup and the AWS environment feedback:
+
+1. Successful Initialization
+<img width="932" height="594" alt="tf_init" src="https://github.com/user-attachments/assets/18c6e2f6-ab9e-4265-95d2-efbf22866014" />
+
+
